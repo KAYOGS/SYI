@@ -1,10 +1,60 @@
-*{padding: 0; margin: 0;}
-#menu{height: 100px; width: 100%; background-color: black;}
-#logo{width: 100px; height: 100px; transform: translate(13%);}
-a{color: white; font-family: Arial; font-size: 18px; text-decoration: none; margin: 4%;}
-#links{transform: translate(350%, -65px); width: 18%;}
-#solicitar_uso{width: 150px; height: 50px; transform: translate(860%, -100px); border-radius: 33px; cursor: pointer;}
-#conteudo{width: 100%; height: 700px; text-align: center;}
-#titulo{padding: 5%; font-family: Arial;}
-#conteudo_texto{width: 100%; padding: 70%;}
-#texto{text-align: justify;}
+*{
+    padding: 0; 
+    margin: 0;
+}
+#menu{
+    height: 100px; 
+    width: 100%; 
+    background-color: black;
+}
+#logo{
+    width: 100px; 
+    height: 100px; 
+    transform: translate(55%, 20%); 
+    color: white; 
+    font-family: Arial; 
+    font-size: 50px
+}
+a{
+    color: white; 
+    font-family: Arial; 
+    font-size: 18px; 
+    text-decoration: none; 
+    margin: 4%;
+}
+#links{
+    transform: translate(190%, -60px); 
+    width: 30%;
+}
+#solicitar_uso{
+    width: 150px; 
+    height: 50px; 
+    transform: translate(860%, -97px); 
+    border-radius: 33px; 
+    cursor: pointer;
+}
+#conteudo{
+    width: 100%; 
+    height: 700px; 
+    text-align: center;
+}
+#titulo{
+    padding: 3%; 
+    font-family: Arial;
+}
+#conteudo_texto{
+    width: 60%; 
+    height: 20vh;
+    text-align: justify;
+    transform: translate(32.5%);
+}
+#texto{
+    font-family: Arial;
+    font-size: 18px;
+}
+#parceiros{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
