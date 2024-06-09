@@ -3,5 +3,5 @@ function cadastrese () {
 }
 
 function Voltar () {
-    location.href = '/index.html'
+    location.href = 'http://syi.netlify.app/index.html'
 }
