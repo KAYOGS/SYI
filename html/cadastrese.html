@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se</title>
+        <link rel="stylesheet" href="/css/cadastrese.css">
+    </head>
+    <body>
+        <form action="" method="post">
+            <div id="container">
+                <div id="filho"><br>
+                    <div id="kld"><label id="titulo">Cadastre-se</label></div>
+                    <input type="text"       name="cpf"    id="tt"    maxlength="11"  minlength="11"   placeholder="Cpf"         ><br>
+                    <input type="text"       name="nome"   id="tt"    maxlength="  "  minlength="03"   placeholder="Nome"        ><br>
+                    <input type="email"      name="email"  id="tt"    maxlength="  "  minlength="05"   placeholder="Email"       ><br>
+                    <input type="date"       name="data"   id="tt"    maxlength="08"  minlength="06"   placeholder="Nascimento"  ><br>
+                    <input type="password"   name="senha"  id="tt"    maxlength="10"  minlength="04"   placeholder="Senha"       ><br>
+
+                    <div id="visualizacao"><input type="checkbox"   name="mostra" id="view"> <label id="v"> Visualizar senha</label></div>
+
+                    <button id="botao"       name="s"     onclick="Salvar()">
+                        <b>Salvar</b>
+                    </button>
+                    <button id="botao"       name="c"     onclick="Voltar()">
+                        <b>Voltar</b>
+                    </button>
+                    <script src="../javaScript/redirecionamento.js"></script>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

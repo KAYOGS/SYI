@@ -6,33 +6,41 @@
     height: 100px; 
     width: 100%; 
     background-color: black;
+    display: grid;
+    grid-template-columns: 10% 70% 45%;
 }
 #logo{
-    width: 100px; 
-    height: 100px; 
-    transform: translate(55%, 20%); 
     color: white; 
     font-family: Arial; 
-    font-size: 50px
+    font-size: 50px;
+    transform: translate(0, 20px);
+    text-align: right;
+}
+#ff{
+    text-align: center;
+    width: 40%;
 }
 a{
     color: white; 
     font-family: Arial; 
     font-size: 18px; 
-    text-decoration: none; 
-    margin: 4%;
+    text-decoration: none;
+    margin: 2%;
+    transform: translate(0, 20px);
 }
 #links{
-    transform: translate(190%, -60px); 
-    width: 30%;
+    padding-top: 39px;
+    width: 100%;
+    margin-left: 1%;
+    text-align: right;
 }
 #solicitar_uso{
     width: 150px; 
-    height: 50px; 
-    transform: translate(860%, -97px); 
+    height: 50px;
     border-radius: 33px; 
     cursor: pointer;
     background-color: white;
+    transform: translate(0, 25px);
 }
 #conteudo{
     width: 100%; 
