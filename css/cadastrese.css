@@ -1,14 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-#container{
+
+#container {
     background-image: url('../img/t.png');
     width: 100%;
     height: 100vh;
     text-align: center;
 }
-#tt{
+
+#tt {
     padding: 7px;
     width: 35%;
     height: 20px;
@@ -17,31 +19,37 @@
     transform: translate(0, 70px);
     border-radius: 9px;
 }
-#titulo{
+
+#titulo {
     font-family: Arial;
     font-size: 30px;
     color: white;
     border-top: 100px;
 }
-#kld{
+
+#kld {
     transform: translate(0, 40px);
 }
-#v{
+
+#v {
     color: white;
     font-family: Arial;
     font-size: 16px;
 }
-#view{
+
+#view {
     width: 17px;
     height: 17px;
 }
-#visualizacao{
+
+#visualizacao {
     margin-top: 90px;
     width: 30%;
     text-align: left;
     transform: translate(108%);
 }
-#botao{
+
+#botao {
     width: 90px;
     height: 35px;
     border-radius: 40px;
