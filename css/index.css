@@ -3,19 +3,24 @@
     margin: 0;
 }
 
+#container{
+    background-color: #003366;
+    height: 100vh;
+}
+
 #menu {
-    height: 100px;
+    height: 110px;
     width: 100%;
-    background-color: black;
+    background-color: #E0E0E0;
     display: grid;
     grid-template-columns: 10% 70% 45%;
 }
 
 #logo {
-    color: white;
+    color: black;
     font-family: Arial;
     font-size: 50px;
-    transform: translate(0, 20px);
+    transform: translate(0, 25px);
     text-align: right;
 }
 
@@ -25,16 +30,16 @@
 }
 
 a {
-    color: white;
+    color: black;
     font-family: Arial;
     font-size: 18px;
     text-decoration: none;
-    margin: 2%;
+    margin: 1%;
     transform: translate(0, 20px);
 }
 
 #links {
-    padding-top: 39px;
+    margin-top: 45px;
     width: 100%;
     margin-left: 1%;
     text-align: right;
@@ -46,47 +51,44 @@ a {
     border-radius: 33px;
     cursor: pointer;
     background-color: white;
-    transform: translate(0, 25px);
+    transform: translate(0, 30px);
 }
 
 #conteudo {
+    margin-top: 35px;
     width: 100%;
-    height: 700px;
+    height: 400px;
     text-align: center;
 }
 
 #titulo {
     padding: 3%;
     font-family: Arial;
+    color: white;
 }
 
 #conteudo_texto {
-    width: 60%;
+    width: 50%;
     height: 20vh;
     text-align: justify;
-    transform: translate(32.5%);
+    transform: translate(50%);
 }
 
 #texto {
     font-family: Arial;
     font-size: 18px;
-}
-
-#parceiros {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 400px;
-    text-align: center;
-}
-
-#contato {
-    text-align: center;
-    background-color: rgb(73, 69, 69);
     color: white;
-    width: 100%;
-    height: 300px;
 }
 
-h5 {
-    font-family: Arial;
+#contato{
+    width: 80%;
+    height: 10vh;
+    transform: translate(20%, 100px);
+    text-align: right;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+    color: white;
 }
