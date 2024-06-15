@@ -6,6 +6,7 @@
 #container{
     background-color: #003366;
     height: 100vh;
+    text-align: center;
 }
 
 #menu {
@@ -83,7 +84,7 @@ a {
 #contato{
     width: 80%;
     height: 10vh;
-    transform: translate(20%, 100px);
+    transform: translate(18%, 80px);
     text-align: right;
 }
 
@@ -91,4 +92,11 @@ img{
     width: 45px;
     height: 45px;
     color: white;
+}
+
+#o{
+    font-size: 14px;
+    font-family: Arial;
+    color: white;
+    transform: translate(0, 80px);
 }
