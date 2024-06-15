@@ -63,4 +63,5 @@
     border-radius: 40px;
     margin: 10px;
     transform: translate(-110%, 140px);
+    cursor: pointer;
 }

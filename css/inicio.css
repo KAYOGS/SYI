@@ -6,29 +6,18 @@
 #container {
     width: 100%;
     height: 100vh;
-    background-image: url('/img/t.png');
+    background: #003366;
     text-align: center;
 }
 
 #tt {
     padding: 7px;
-    width: 35%;
+    width: 50%;
     height: 20px;
     font-size: 20px;
     margin-top: 60px;
-    transform: translate(0, 110px);
+    transform: translate(0, 70px);
     border-radius: 9px;
-}
-
-#v {
-    color: white;
-    font-family: Arial;
-    font-size: 16px;
-}
-
-#view {
-    width: 17px;
-    height: 17px;
 }
 
 #botao {
@@ -36,36 +25,38 @@
     height: 35px;
     border-radius: 40px;
     margin: 10px;
-    transform: translate(-160%, 50px);
+    transform: translate(-110%, 150px);
+    cursor: pointer;
 }
 
 #titulo {
     font-family: Arial;
     font-size: 30px;
-    color: white;
+    color: black;
     border-top: 100px;
 }
 
 #kld {
-    transform: translate(0, 80px);
+    transform: translate(0, 40px);
 }
 
-#visualizacao {
-    margin-top: 150px;
-    width: 30%;
-    text-align: left;
-    transform: translate(108%);
+#filho{
+    background-color: #E0E0E0;
+    width: 50%;
+    height: 600px;
+    transform: translate(50%, 70px);
+    border-radius: 30px;
 }
 
-#menu {
-    width: 55px;
-    height: 55px;
-    border-radius: 50px;
-    transform: translate(-1300%, 180px);
+#link{
+    width: 100%;
+    transform: translate(0, 85px);
 }
 
-#qq {
-    width: 40%;
-    background-color: aliceblue;
-    opacity: 30%;
+a{
+    font-family: Arial;
+    color: black;
+    font-size: 18px;
+    margin: 9%;
+    text-decoration: none;
 }

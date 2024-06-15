@@ -10,22 +10,20 @@
     <body>
         <form action="" method="post">
             <div id="container">
-                <div id="kld"><label id="titulo">Login</label></div>
-                <input type="text"       name="cpf"    id="tt"    maxlength="11"  minlength="11"   placeholder="Cpf"         ><br>
-                <input type="password"   name="senha"  id="tt"    maxlength="10"  minlength="04"   placeholder="Senha"       ><br>
+                <div id="filho">
+                    <div id="kld"><label id="titulo">Login</label></div>
+                    <input type="text"       name="cpf"    id="tt"    maxlength="11"  minlength="11"   placeholder="Cpf"         ><br>
+                    <input type="password"   name="senha"  id="tt"    maxlength="10"  minlength="04"   placeholder="Senha"       ><br>
 
-                <div id="visualizacao"><input type="checkbox"   name="mostra" id="view"> <label id="v"> Visualizar senha</label></div>
+                    <div id="link"><a href="/html/redefinir.html">Esqueceu a senha?</a> <a href="/html/cadastrese.html">Cadastre-se</a></div>
 
-                <button id="botao"       name="a"     onclick="Acessar()">
-                    <b>Salvar</b>
-                </button>
-                <button id="botao"       name="c"     onclick=" Voltar()">
-                    <b>Voltar</b>
-                </button>
-
-                <button id="menu"        name="m"     onclick="   Menu()">
-                    <img src="/img/mais.png" alt="">
-                </button>
+                    <button id="botao"       name="a"     onclick="Acessar()">
+                        <b>Salvar</b>
+                    </button>
+                    <button id="botao"       name="c"     onclick=" Voltar()">
+                        <b>Voltar</b>
+                    </button>
+                </div>
             </div>
         </form>
     </body>
