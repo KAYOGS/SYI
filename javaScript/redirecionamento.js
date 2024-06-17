@@ -1,5 +1,5 @@
 function cadastrese () {
-    location.href = '../html/cadastrese.html'
+    location.href = '/html/cadastrese.html'
 }
 
 function Voltar () {
@@ -7,5 +7,5 @@ function Voltar () {
 }
 
 function Voltar1 () {
-    location.href = 'https://syi.netlify.app'
+    location.href = '/index.html'
 }
