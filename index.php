@@ -15,7 +15,7 @@
                     <a href="/html/inicio.html">Login</a>
                 </div>
                 <div id="ff">
-                    <button id="solicitar_uso" onclick="cadastrese()">
+                    <button <?php header('location:../html/cadastrese.html');?> id="solicitar_uso" onclick="cadastrese()">
                         <h4>Cadastre-se</h4>
                     </button>
                 </div>
