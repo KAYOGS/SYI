@@ -7,5 +7,5 @@ function Voltar () {
 }
 
 function Voltar1 () {
-    location.href = '/index.html'
+    location.href = 'https://syi.netlify.app'
 }
